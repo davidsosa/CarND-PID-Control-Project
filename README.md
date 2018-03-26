@@ -6,7 +6,8 @@ Self-Driving Car Engineer Nanodegree Program
 ### Project description
 
 Write a PID (Proportial, integral, and differential ) controller, to guide the car
-through the track. The most important task
+through the track. The most important task is to tune the parameters to have an
+optimal driving experience.
 
 To write this project the YouTube Q&A was followed:
 https://www.youtube.com/watch?v=YamBuzDjrs8&feature=youtu.be
