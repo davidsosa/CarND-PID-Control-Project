@@ -1,11 +1,8 @@
-# CarND-Controls-PID
-Self-Driving Car Engineer Nanodegree Program
-
----
+# PID Control Project
 
 ### Project description
 
-Write a PID (Proportial, integral, and differential ) controller, to guide the car
+A PID (proportial, integral, and differential) controller, to guide the car
 through the track. The most important task is to tune the parameters to have an
 optimal driving experience.
 
@@ -13,15 +10,12 @@ To write this project the YouTube Q&A was followed:
 https://www.youtube.com/watch?v=YamBuzDjrs8&feature=youtu.be
 
 ### Results
-
 The value for the parameters Kx in the PID.cpp file are the following:
-
 `
 double init_Kp = -0.06;
 double init_Ki = -0.0001;
 double init_Kd = -0.92;
 `
-
 These values were adjusted manually. For example, the value Kp was set by making
 sure that the car did not steer wildly while going on a straight path. The value
 for Kd was adjusted by looking at the response of the car when coming to a curve.
